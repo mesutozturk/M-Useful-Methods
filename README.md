@@ -8,3 +8,5 @@ $ dotnet nuget add source https://nuget.pkg.github.com/mesutozturk/index.json -n
 $ dotnet pack --configuration Release
 // Step 3: Publish
 $ dotnet nuget push "MUsefullMethods\bin\Release\UsefullMethods.1.0.0.nupkg" --source "GitHub"
+
+dotnet nuget push MUsefullMethods\bin\Release\UsefullMethods.1.0.0.nupkg --api-key xxx --source https://api.nuget.org/v3/index.json
