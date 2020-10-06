@@ -5,8 +5,13 @@
     <PackageId>UsefullMethods</PackageId>
     <Version>1.0.0</Version>
     <Authors>mesutozturk</Authors>
-    <Company>Mesut Öztürk</Company>
+    <Company>Mesut Öztürk - MTech</Company>
     <PackageDescription>Yararlı Generic Methodlar</PackageDescription>
     <RepositoryUrl>https://github.com/mesutozturk/M-Usefull-Methods</RepositoryUrl>
+    <Description>Yararlı Generic Methodlar
+
+</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 </Project>
