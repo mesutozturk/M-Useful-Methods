@@ -5,6 +5,7 @@ namespace MUsefullMethods
 {
     public static class StringHelpers
     {
+        private static char[] _validChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".ToCharArray();
         private static char[] _validCharacters = { '\'', '\"', '!', '^', '+', '#', '$', '%', '&', '/', '{', '}', '(', ')', '[', ']', '=', '?', '*', '\\', '-', '_', '~', ',', ';', '´', '.', ':', '|', '<', '>', '@', '€', '¨', ' ' };
         public static string GenerateUniqueCode()
         {
@@ -14,7 +15,19 @@ namespace MUsefullMethods
             return base64String.ToLower(new System.Globalization.CultureInfo("en-US", false));
         }
 
-        public static string RandomPasswordGenerator(int size = 6) => Guid.NewGuid().ToString().Replace("-", "").Substring(0, size);
+        public static string GenerateUpperCode(int size = 6)
+        {
+            var random = new Random();
+            var code = string.Empty;
+
+            for (int i = 0; i < size; i++)
+            {
+                code += _validChars[random.Next(_validChars.Length)];
+            }
+
+            return code;
+        }
+        public static string RandomPasswordGenerator(int size = 6) => GenerateUniqueCode().Substring(0, size);
         public static string CharacterConverter(string name)
         {
             string sonuc = name.ToLower();
