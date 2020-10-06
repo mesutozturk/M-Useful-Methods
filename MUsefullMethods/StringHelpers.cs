@@ -151,5 +151,17 @@ namespace MUsefullMethods
             var userName = CharacterConverter(splitted[0] + part2.ToLower());
             return userName;
         }
+        public static string FormatForTag(this string input)
+        {
+            var text = input.ToLower().Trim();
+            text = CharacterConverter(text);
+            var splitted = text.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+            var result = "";
+            for (int i = 0; i < splitted.Length; i++)
+                result += i == splitted.Length - 1 ? splitted[i] : $"{splitted[i]}-";
+
+            return result;
+        }
     }
 }
