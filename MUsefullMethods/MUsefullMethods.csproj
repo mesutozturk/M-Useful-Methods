@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <PackageId>UsefullMethods</PackageId>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Authors>mesutozturk</Authors>
     <Company>Mesut Öztürk - MTech</Company>
     <PackageDescription>Yararlı Generic Methodlar</PackageDescription>

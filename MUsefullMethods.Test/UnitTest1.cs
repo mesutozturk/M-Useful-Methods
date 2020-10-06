@@ -14,6 +14,7 @@ namespace MUsefullMethods.Test
                 for (int i = 0; i < 50; i++)
                 {
                     Debug.WriteLine(StringHelpers.GenerateUpperCode());
+                    Trace.WriteLine(StringHelpers.GenerateUpperCode());
                 }
                 Assert.True(true);
             }
@@ -31,6 +32,7 @@ namespace MUsefullMethods.Test
                 for (int i = 0; i < 50; i++)
                 {
                     Debug.WriteLine(StringHelpers.GenerateUniqueCode());
+                    Trace.WriteLine(StringHelpers.GenerateUniqueCode());
                 }
                 Assert.True(true);
             }
