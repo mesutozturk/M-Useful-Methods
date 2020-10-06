@@ -2,17 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <PackageId>UsefullMethods</PackageId>
-    <Version>1.0.4</Version>
+    <PackageId>UsefulMethods</PackageId>
+    <Version>1.0.5</Version>
     <Authors>mesutozturk</Authors>
     <Company>Mesut Öztürk - MTech</Company>
     <PackageDescription>Yararlı Generic Methodlar</PackageDescription>
-    <RepositoryUrl>https://github.com/mesutozturk/M-Usefull-Methods</RepositoryUrl>
+    <RepositoryUrl>https://github.com/mesutozturk/M-Useful-Methods</RepositoryUrl>
     <Description>Yararlı Generic Methodlar
 
 </Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <NeutralLanguage>en</NeutralLanguage>
-    <PackageProjectUrl>https://github.com/mesutozturk/M-Usefull-Methods</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/mesutozturk/M-Useful-Methods</PackageProjectUrl>
+    <AssemblyName>MUsefulMethods</AssemblyName>
+    <RootNamespace>MUsefulMethods</RootNamespace>
+    <AssemblyVersion>1.0.5.0</AssemblyVersion>
+    <FileVersion>1.0.5.0</FileVersion>
   </PropertyGroup>
 </Project>

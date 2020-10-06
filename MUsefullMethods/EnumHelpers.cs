@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Reflection;
 
-namespace MUsefullMethods
+namespace MUsefulMethods
 {
     public static class EnumHelpers
     {

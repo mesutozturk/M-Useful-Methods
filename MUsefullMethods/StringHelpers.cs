@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace MUsefullMethods
+namespace MUsefulMethods
 {
     public static class StringHelpers
     {
