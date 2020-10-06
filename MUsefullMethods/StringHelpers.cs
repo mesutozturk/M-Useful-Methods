@@ -15,7 +15,7 @@ namespace MUsefullMethods
         }
 
         public static string RandomPasswordGenerator(int size = 6) => Guid.NewGuid().ToString().Replace("-", "").Substring(0, size);
-        public static string UrlFormatConverter(string name)
+        public static string CharacterConverter(string name)
         {
             string sonuc = name.ToLower();
             sonuc = ClearHiddenCharacters(sonuc);
@@ -144,6 +144,12 @@ namespace MUsefullMethods
             }
 
             return new string[] { CapitalSentences(name), CapitalSentences(surname) };
+        }
+        public static string ConcatForUserName(string part1, string part2)
+        {
+            var splitted = part1.ToLower().Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            var userName = CharacterConverter(splitted[0] + part2.ToLower());
+            return userName;
         }
     }
 }
