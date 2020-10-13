@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MUsefullMethods\MUsefullMethods.csproj" />
+    <ProjectReference Include="..\MUsefullMethods\MUsefulMethods.csproj" />
   </ItemGroup>
 
 </Project>

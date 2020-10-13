@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MUsefullMethods", "MUsefullMethods\MUsefullMethods.csproj", "{87BFE5A1-53AB-45EE-8580-8F81B9013E17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MUsefulMethods", "MUsefullMethods\MUsefulMethods.csproj", "{87BFE5A1-53AB-45EE-8580-8F81B9013E17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MUsefullMethods.Test", "MUsefullMethods.Test\MUsefullMethods.Test.csproj", "{3E078D38-F2BC-41CB-AF40-342A02F5C772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MUsefulMethods.Test", "MUsefullMethods.Test\MUsefulMethods.Test.csproj", "{3E078D38-F2BC-41CB-AF40-342A02F5C772}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

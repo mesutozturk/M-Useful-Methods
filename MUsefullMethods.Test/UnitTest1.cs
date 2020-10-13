@@ -1,9 +1,8 @@
 using System;
 using System.Diagnostics;
-using MUsefulMethods;
 using Xunit;
 
-namespace MUsefullMethods.Test
+namespace MUsefulMethods.Test
 {
     public class UnitTest1
     {

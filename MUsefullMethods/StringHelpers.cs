@@ -14,7 +14,11 @@ namespace MUsefulMethods
 
             return base64String.ToLower(new System.Globalization.CultureInfo("en-US", false));
         }
-
+        /// <summary>
+        /// 6 Karakterli random kod üretir
+        /// </summary>
+        /// <param name="size">Istenildiği boyuta ayarlanabilir</param>
+        /// <returns></returns>
         public static string GenerateUpperCode(int size = 6)
         {
             var random = new Random();
